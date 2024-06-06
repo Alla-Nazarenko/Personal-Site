@@ -15,7 +15,7 @@ h1:hover {
 
 .menu-box {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
 }
