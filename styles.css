@@ -1,0 +1,88 @@
+/*HEDER*/
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h1:hover {
+  color: orangered;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none; /* Убираем стандартные маркеры списка */
+  padding: 0;
+  font-size: 16px;
+}
+
+li:hover {
+  color: orange;
+}
+
+.flex-container-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/*MAIN*/
+
+main {
+  height: 500px;
+  margin: 0px;
+  border: 1px;
+  padding: 10px;
+  background-color: blanchedalmond;
+}
+
+/* style for class "highlight"*/
+.highlight {
+  background-color: rgb(243, 243, 174);
+}
+
+/* style for id*/
+#red {
+  width: 120px;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.flex-container-Fell-free {
+  padding: 0 10px;
+  margin: 0;
+  border: 0;
+  background-color: rgb(204, 227, 235);
+  height: 30px;
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+}
+/*FOOTER*/
+footer {
+  color: aliceblue;
+  height: 180px;
+  background-color: black;
+  margin: 0;
+  border: 1px;
+  padding: 10px;
+}
+
+input:focus {
+  color: blue;
+  border-color: blue;
+  background-color: yellow;
+}
